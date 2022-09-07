@@ -5,7 +5,7 @@ var fileName = "Names.txt";
 var outputFolderName = "Output";
 var photoFiletype = ".jpg";
 
-var executingDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+var executingDirectory = Environment.CurrentDirectory;
 var outputDirectory = $"{executingDirectory}\\{outputFolderName}";
 
 var files = Directory.GetFiles(executingDirectory, $"*{photoFiletype}");
