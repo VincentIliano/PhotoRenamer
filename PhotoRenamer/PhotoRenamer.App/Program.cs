@@ -15,7 +15,7 @@ var names = File.ReadAllLines($"{executingDirectory}\\{fileName}");
 
 Directory.CreateDirectory(outputDirectory);
 
-for(int i = 0; i < files.Length; i++)
+for (int i = 0; i < files.Length; i++)
 {
     File.Copy(files[i], $"{outputDirectory}\\{names[i]}{photoFiletype}", true);
     Console.WriteLine($"{files[i]} renamed to {names[i]}{photoFiletype}");

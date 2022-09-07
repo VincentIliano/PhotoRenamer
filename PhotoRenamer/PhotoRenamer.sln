@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoRenamer.App", "PhotoRenamer.App\PhotoRenamer.App.csproj", "{4B476421-14CC-45B4-9485-E0B27568BDF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B476421-14CC-45B4-9485-E0B27568BDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B476421-14CC-45B4-9485-E0B27568BDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B476421-14CC-45B4-9485-E0B27568BDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B476421-14CC-45B4-9485-E0B27568BDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC0C71FE-2C55-4827-9D8B-6C63AE590F1E}
+	EndGlobalSection
+EndGlobal
